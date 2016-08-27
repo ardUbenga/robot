@@ -1,0 +1,18 @@
+C:\Users\Jjuf\AppData\Local\Temporary Projects\calibrarservo\bin\Debug\calibrarservo.exe
+C:\Users\Jjuf\AppData\Local\Temporary Projects\calibrarservo\bin\Debug\calibrarservo.pdb
+C:\Users\Jjuf\AppData\Local\Temporary Projects\calibrarservo\bin\Debug\calibrarservo.xml
+C:\Users\Jjuf\AppData\Local\Temporary Projects\calibrarservo\obj\x86\Debug\calibrarservo.Form1.resources
+C:\Users\Jjuf\AppData\Local\Temporary Projects\calibrarservo\obj\x86\Debug\calibrarservo.Resources.resources
+C:\Users\Jjuf\AppData\Local\Temporary Projects\calibrarservo\obj\x86\Debug\calibrarservo.vbproj.GenerateResource.Cache
+C:\Users\Jjuf\AppData\Local\Temporary Projects\calibrarservo\obj\x86\Debug\calibrarservo.exe
+C:\Users\Jjuf\AppData\Local\Temporary Projects\calibrarservo\obj\x86\Debug\calibrarservo.xml
+C:\Users\Jjuf\AppData\Local\Temporary Projects\calibrarservo\obj\x86\Debug\calibrarservo.pdb
+C:\Users\Jjuf\Desktop\arduino_proyectos\robot\calibrarservo\calibrarservovb\calibrarservo\calibrarservo\obj\x86\Debug\calibrarservo.exe
+C:\Users\Jjuf\Desktop\arduino_proyectos\robot\calibrarservo\calibrarservovb\calibrarservo\calibrarservo\obj\x86\Debug\calibrarservo.xml
+C:\Users\Jjuf\Desktop\arduino_proyectos\robot\calibrarservo\calibrarservovb\calibrarservo\calibrarservo\obj\x86\Debug\calibrarservo.pdb
+C:\Users\Jjuf\Desktop\arduino_proyectos\robot\calibrarservo\calibrarservovb\calibrarservo\calibrarservo\bin\Debug\calibrarservo.exe
+C:\Users\Jjuf\Desktop\arduino_proyectos\robot\calibrarservo\calibrarservovb\calibrarservo\calibrarservo\bin\Debug\calibrarservo.pdb
+C:\Users\Jjuf\Desktop\arduino_proyectos\robot\calibrarservo\calibrarservovb\calibrarservo\calibrarservo\bin\Debug\calibrarservo.xml
+C:\Users\Jjuf\Desktop\arduino_proyectos\robot\calibrarservo\calibrarservovb\calibrarservo\calibrarservo\obj\x86\Debug\calibrarservo.Form1.resources
+C:\Users\Jjuf\Desktop\arduino_proyectos\robot\calibrarservo\calibrarservovb\calibrarservo\calibrarservo\obj\x86\Debug\calibrarservo.Resources.resources
+C:\Users\Jjuf\Desktop\arduino_proyectos\robot\calibrarservo\calibrarservovb\calibrarservo\calibrarservo\obj\x86\Debug\calibrarservo.vbproj.GenerateResource.Cache
