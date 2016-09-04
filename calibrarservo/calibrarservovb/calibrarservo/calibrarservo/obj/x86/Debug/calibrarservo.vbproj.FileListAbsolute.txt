@@ -19,3 +19,9 @@ C:\Users\Jjuf\Desktop\arduino_proyectos\robot\calibrarservo\calibrarservovb\cali
 C:\Users\Jjuf\robot_total_delante_atras\calibrarservo\calibrarservovb\calibrarservo\calibrarservo\obj\x86\Debug\calibrarservo.exe
 C:\Users\Jjuf\robot_total_delante_atras\calibrarservo\calibrarservovb\calibrarservo\calibrarservo\obj\x86\Debug\calibrarservo.xml
 C:\Users\Jjuf\robot_total_delante_atras\calibrarservo\calibrarservovb\calibrarservo\calibrarservo\obj\x86\Debug\calibrarservo.pdb
+C:\Users\Jjuf\robot_total_delante_atras\calibrarservo\calibrarservovb\calibrarservo\calibrarservo\bin\Debug\calibrarservo.exe
+C:\Users\Jjuf\robot_total_delante_atras\calibrarservo\calibrarservovb\calibrarservo\calibrarservo\bin\Debug\calibrarservo.pdb
+C:\Users\Jjuf\robot_total_delante_atras\calibrarservo\calibrarservovb\calibrarservo\calibrarservo\bin\Debug\calibrarservo.xml
+C:\Users\Jjuf\robot_total_delante_atras\calibrarservo\calibrarservovb\calibrarservo\calibrarservo\obj\x86\Debug\calibrarservo.Form1.resources
+C:\Users\Jjuf\robot_total_delante_atras\calibrarservo\calibrarservovb\calibrarservo\calibrarservo\obj\x86\Debug\calibrarservo.Resources.resources
+C:\Users\Jjuf\robot_total_delante_atras\calibrarservo\calibrarservovb\calibrarservo\calibrarservo\obj\x86\Debug\calibrarservo.vbproj.GenerateResource.Cache

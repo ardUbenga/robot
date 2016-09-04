@@ -39,4 +39,14 @@ Public Class Form1
     End Sub
 
    
+    Private Sub TrackBar1_Scroll(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles TrackBar1.Scroll
+        TextBox2.Text = TrackBar1.Value
+
+    End Sub
+
+    Private Sub Button5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button5.Click
+        SerialPort1.Open()
+        SerialPort1.Write(TextBox2.Text)
+        SerialPort1.Close()
+    End Sub
 End Class
