@@ -1,4 +1,4 @@
-//version 23/08/2016
+///version 23/08/2016
 #include <Servo.h>
 Servo myservo;  // crear objeto para controlar el servo
 #define trig 8
