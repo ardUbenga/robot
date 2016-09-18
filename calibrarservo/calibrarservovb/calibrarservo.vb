@@ -49,4 +49,28 @@ Public Class Form1
         SerialPort1.Write(TextBox2.Text)
         SerialPort1.Close()
     End Sub
+
+    Private Sub Button6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button6.Click
+        SerialPort1.Open()
+        SerialPort1.Write("3")
+        SerialPort1.Close()
+    End Sub
+
+    Private Sub Button8_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button8.Click
+        SerialPort1.Open()
+        SerialPort1.Write("4")
+        SerialPort1.Close()
+    End Sub
+
+    Private Sub Button9_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button9.Click
+        SerialPort1.Open()
+        SerialPort1.Write("5")
+        SerialPort1.Close()
+    End Sub
+
+    Private Sub Button7_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button7.Click
+        SerialPort1.Open()
+        SerialPort1.Write("6")
+        SerialPort1.Close()
+    End Sub
 End Class
