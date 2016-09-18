@@ -3,14 +3,13 @@
 Servo myservo;  // crear objeto para controlar el servo
 #define trig 8
 #define echo 9
-int motoraa=3;
+int motoraa=4;
 int motorab=5;
 int motorba=6;
 int motorbb=7;
 int velocidad=255;
-int velocidad1=150;
-int i; 
-int d;
+int velocidad1=150; 
+int d; //Distancia
 void setup() {
 myservo.attach(3);  // asigna el pin 3 al objeto servo 
 pinMode (trig, OUTPUT);
@@ -34,24 +33,11 @@ void loop() {
   Serial.println(distancia);
 //  delay(200);
   if(distancia < 60){
-    parar();
-    myservo.write(0);
-    unsigned int i=calcularDistancia(trig, echo, true); 
-    delay(500);
-    Serial.print("Izquierda= ");
-    Serial.println(i);
-    myservo.write(180);
-    unsigned int d=calcularDistancia(trig, echo, true);
-    delay(500); 
-    Serial.print("Derecha= ");
-    Serial.println(d);
     decide();
     }
     else{
     loop();
     }
-    
-
 }
 
 /////////FUNCIONES DEL ROBOT////////////////////////////////
@@ -137,19 +123,19 @@ void derecha()
 //////////FUNCION QUE DECIDE QUE HACER/////////////////
 void decide()
 {
-  if(i>d)
-    {
-      Serial.println("Giro Izquierda");
+  
+      Serial.println("para");
       delay(2000);
       parar();
+      delay(3000);
       detras();
+      delay(3000);
+      parar();
+      delay(3000);
       izquierda();
-    }else{
-      Serial.println("Giro Derecha");
       delay(2000);
       parar();
-      detras();
-      derecha();
-    }
-  //Si i<d,parar,atrás,parar,girar a la derecha,para,delante. 
-}  
+      delay(3000);
+}
+ 
+  
