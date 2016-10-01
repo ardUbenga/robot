@@ -53,26 +53,26 @@ if (Serial.available()>0)
 void adelante()
 {
  Serial.println("Delante");
- analogWrite(motoraa,0);
- analogWrite(motorab,velocidad);
- analogWrite(motorba,0);
- analogWrite(motorbb,velocidad);
-}
-
-void detras()
-{
- Serial.println("Detrás");
  analogWrite(motoraa,velocidad);
  analogWrite(motorab,0);
  analogWrite(motorba,velocidad);
  analogWrite(motorbb,0);
 }
 
+void detras()
+{
+ Serial.println("Detrás");
+ analogWrite(motoraa,0);
+ analogWrite(motorab,velocidad);
+ analogWrite(motorba,0);
+ analogWrite(motorbb,velocidad);
+}
+
 void izquierda()
 {
  Serial.println("Giro Izquierda");
- analogWrite(motoraa,0);
- analogWrite(motorab,velocidad);
+ analogWrite(motoraa,velocidad);
+ analogWrite(motorab,0);
  analogWrite(motorba,0);
  analogWrite(motorbb,0);
 }
@@ -82,8 +82,8 @@ void derecha()
  Serial.println("Giro Derecha");
  analogWrite(motoraa,0);
  analogWrite(motorab,0);
- analogWrite(motorba,0);
- analogWrite(motorbb,velocidad);
+ analogWrite(motorba,velocidad);
+ analogWrite(motorbb,0);
 }
 
 void parar()
