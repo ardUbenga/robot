@@ -1,0 +1,9 @@
+C:\Users\Jjuf\AppData\Local\Temporary Projects\medidor_distacia\bin\Debug\medidor_distacia.exe
+C:\Users\Jjuf\AppData\Local\Temporary Projects\medidor_distacia\bin\Debug\medidor_distacia.pdb
+C:\Users\Jjuf\AppData\Local\Temporary Projects\medidor_distacia\bin\Debug\medidor_distacia.xml
+C:\Users\Jjuf\AppData\Local\Temporary Projects\medidor_distacia\obj\x86\Debug\medidor_distacia.Form1.resources
+C:\Users\Jjuf\AppData\Local\Temporary Projects\medidor_distacia\obj\x86\Debug\medidor_distacia.Resources.resources
+C:\Users\Jjuf\AppData\Local\Temporary Projects\medidor_distacia\obj\x86\Debug\medidor_distacia.vbproj.GenerateResource.Cache
+C:\Users\Jjuf\AppData\Local\Temporary Projects\medidor_distacia\obj\x86\Debug\medidor_distacia.exe
+C:\Users\Jjuf\AppData\Local\Temporary Projects\medidor_distacia\obj\x86\Debug\medidor_distacia.xml
+C:\Users\Jjuf\AppData\Local\Temporary Projects\medidor_distacia\obj\x86\Debug\medidor_distacia.pdb
