@@ -51,5 +51,5 @@ if(centimetros <= 10)
      Serial.println("Que se choca");
   }
  
-delay (1000);
+delay (300);
 }

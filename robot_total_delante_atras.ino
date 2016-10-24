@@ -1,8 +1,8 @@
 ///version 23/08/2016
 #include <Servo.h>
 Servo myservo;  // crear objeto para controlar el servo
-#define trig 8
-#define echo 9
+int Trig=8;
+int Echo=10;
 int motoraa=4;
 int motorab=5;
 int motorba=6;
@@ -10,10 +10,11 @@ int motorbb=7;
 int velocidad=255;
 int velocidad1=150; 
 int d; //Distancia
+int Dist; 
 void setup() {
 myservo.attach(3);  // asigna el pin 3 al objeto servo 
-pinMode (trig, OUTPUT);
-pinMode (echo, INPUT);
+pinMode (Trig, OUTPUT);
+pinMode (Echo, INPUT);
 Serial.begin(9600);
 pinMode(motoraa,OUTPUT);
 pinMode(motorab,OUTPUT);
@@ -25,52 +26,55 @@ pinMode(motorbb,OUTPUT);
  
 void loop() {
   myservo.write(90);
-  delay(5000);
+  delay(1000);
 //llamamos la funcion calcularDistancia() y guardamos su
 //retorno en una variable
   delante();
-  unsigned int distancia = calcularDistancia(trig, echo, true);
-  Serial.println(distancia);
-//  delay(200);
-  if(distancia < 60){
-    decide();
-    }
-    else{
-    loop();
-    }
+int centimetros=ultrasonido ();
+Serial.println(centimetros);
+if(centimetros < 20)
+  {
+     Serial.println("Que se choca");
+     parar();    
+  }
+  delay(1000);  
 }
 
-/////////FUNCIONES DEL ROBOT////////////////////////////////
+/////////FUNCIONES DEL ROBOT/////////////////////////////////////
 
 /////////FUNCIÓN CALCULAR DISTANCIA////////////////////////
-int calcularDistancia(int trigPin, int echoPin, bool metric)
-{
-//Devuelve la distancia detectada por el sensor en centimetros o
-//en pulgadas
+
+//Este módulo calcula y devuelve la distancia en cm.
+/*
+Puedes poner el código del módulo directamente en el loop o utilizar el módulo
+para reducir el número de líneas de código del loop o reutilizar el código
+*/
+int ultrasonido (){
  
-int duracion;
-int medida;
+//Para estabilizar el valor del pin Trig se establece a LOW
+digitalWrite (Trig, LOW);
+delay(10);
  
-//En la documentacion establece que para iniciar una medicion
-//hay que suministrar un pulso de 10 microsegundos
-digitalWrite(trigPin, LOW);
-delayMicroseconds(2);
-digitalWrite(trigPin, HIGH);
-delayMicroseconds(10);
-digitalWrite(trigPin, LOW);
+//Se lanzan los 8 pulsos
+digitalWrite (Trig, HIGH);
+delay(1);
+digitalWrite (Trig, LOW);
  
-//Calcula el tiempo que tarda en recibir el eco
-duracion = pulseIn(echoPin, HIGH);
+/*
+Se mide el tiempo que tarda la señal en regresar y se calcula la distancia.
  
-//Si metric es cierto, devuelve la distancia en centimetros.
-//Si no, devuelve la distancia en pulgadas.
-//Aplicamos las formulas que aparecen en la documentacion
+Observa que al realizar pulseIn el valor que se obtiene es tiempo, no distancia
  
-if(metric) medida = duracion/58;
-else medida = duracion/148;
+Se está reutilizando la variable Distancia.
+*/
  
-return medida;
+unsigned long distancia= pulseIn (Echo, HIGH);
+distancia=distancia/58;
+return distancia;
+ 
+delay(100);  
 }
+
 
 
 ////FUNCIONES DE ADELANTE, DETRÁS Y PARADA.
